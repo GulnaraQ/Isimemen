@@ -1,0 +1,39 @@
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .links {
+    display: none;
+  }
+  .bars {
+    display: block;
+  }
+  .showMobileNav {
+    opacity: 1;
+    visibility: visible;
+    top: 70px;
+    position: fixed;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
