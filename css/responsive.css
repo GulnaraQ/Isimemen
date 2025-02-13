@@ -30,6 +30,11 @@
     font-size: 30px;
     width: 90%;
   }
+  .section5-boxes {
+    > h4 {
+      font-size: 50px;
+    }
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -66,6 +71,16 @@
     font-size: 25px;
     width: 70%;
   }
+  .section5-boxes {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    > .box:nth-child(2) {
+      border: none;
+    }
+    > h4 {
+      font-size: 35px;
+    }
+  }
 }
 @media (max-width: 576px) {
   .container {
@@ -84,5 +99,11 @@
   .section3 .boxes {
     grid-template-columns: 1fr;
     justify-content: center;
+  }
+  .section5-boxes {
+    grid-template-columns: 1fr;
+    > .box {
+      border: none;
+    }
   }
 }
