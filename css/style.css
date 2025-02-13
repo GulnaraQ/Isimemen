@@ -22,7 +22,7 @@ html {
 .navbar {
   position: sticky;
   top: 0;
-  background-color: red;
+  background-color: white;
 }
 nav {
   height: 70px;
@@ -30,7 +30,6 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-
 .logo img {
   width: 100%;
 }
@@ -50,7 +49,6 @@ nav {
 .bars img {
   width: 100%;
 }
-
 .mobileNav {
   padding: 50px;
   display: flex;
@@ -70,3 +68,25 @@ nav {
     font-size: 20px;
   }
 }
+/* navbar end */
+
+.hero {
+  height: calc(100vh - 70px);
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(../images/background-header.svg) no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+.hero-title {
+  position: absolute;
+  width: 55%;
+  font-weight: 400;
+  font-size: 100px;
+  color: rgba(174, 232, 251, 1);
+  bottom: 50px;
+}
+/* header end */
