@@ -129,3 +129,65 @@ nav {
   line-height: 88px;
 }
 /* section2 end */
+
+.section3 {
+  padding: 70px 0;
+}
+.section3-title {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+}
+
+.section3 .boxes {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  text-align: center;
+
+  > .box {
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    transition: 0.5s ease;
+  }
+}
+.box:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.boxes .btn {
+  max-width: 180px;
+  margin: auto;
+}
+.box-title {
+  font-size: 16px;
+  letter-spacing: 1.28px;
+  line-height: 19px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.box-info {
+  margin-top: 20px;
+  line-height: 20px;
+}
+.boxes > .box:nth-child(1),
+.boxes > .box:nth-child(3) {
+  background-color: rgba(174, 232, 251, 1);
+}
+.boxes > .box:nth-child(2) {
+  background-color: rgba(243, 233, 226, 1);
+}
+.section3 .boxes img {
+  transition: 0.7s ease;
+  width: 100%;
+}
+.section3 .boxes img:hover {
+  transform: scale(1.05);
+}
+/* section3 end */

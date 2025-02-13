@@ -23,6 +23,9 @@
   .section2 p {
     font-size: 70px;
   }
+  .section3 .boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -49,7 +52,7 @@
     font-size: 35px;
   }
   .section2 p {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 @media (max-width: 576px) {
@@ -64,6 +67,10 @@
     font-size: 25px;
   }
   .section2 p {
-    font-size: 40px;
+    font-size: 35px;
+  }
+  .section3 .boxes {
+    grid-template-columns: 1fr;
+    justify-content: center;
   }
 }
