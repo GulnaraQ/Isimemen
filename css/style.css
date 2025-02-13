@@ -191,3 +191,29 @@ nav {
   transform: scale(1.05);
 }
 /* section3 end */
+
+.section4 {
+  padding: 70px 0;
+}
+.section4-boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: space-between;
+}
+.left-box img {
+  width: 100%;
+}
+.right-box {
+  background-color: rgba(243, 233, 226, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.right-box p {
+  font-size: 44px;
+  line-height: 53px;
+  width: 70%;
+}
+/* section4 end */

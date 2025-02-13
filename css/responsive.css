@@ -26,6 +26,10 @@
   .section3 .boxes {
     grid-template-columns: repeat(2, 1fr);
   }
+  .right-box p {
+    font-size: 30px;
+    width: 90%;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -53,6 +57,14 @@
   }
   .section2 p {
     font-size: 40px;
+  }
+  .section4-boxes {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .right-box p {
+    font-size: 25px;
+    width: 70%;
   }
 }
 @media (max-width: 576px) {
