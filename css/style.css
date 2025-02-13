@@ -282,3 +282,70 @@ marquee {
   font-size: 80px;
 }
 /* section6 end */
+
+.section7 {
+  padding: 70px 0;
+}
+.section7-boxes {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.section7-boxes .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 40px 20px;
+  border-radius: 10px;
+  > h3 {
+    font-size: 58px;
+    font-weight: 400;
+  }
+  > p {
+    font-size: 15px;
+    line-height: 19px;
+  }
+}
+.section7-btn {
+  font-size: 14px;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  padding: 15px;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.section7-btn:hover {
+  background-color: white;
+  color: black !important;
+}
+.section7-boxes .box:nth-child(1) {
+  background-color: rgba(174, 232, 251, 1);
+  > .button .section7-btn {
+    border: 1px solid;
+    color: black;
+  }
+}
+.section7-boxes .box:nth-child(2) {
+  background-color: rgba(243, 233, 226, 1);
+  color: rgba(255, 59, 65, 1);
+  > .button .section7-btn {
+    border: 1px solid red;
+    color: red;
+  }
+}
+.section7-boxes .box:nth-child(3) {
+  background-color: rgba(255, 59, 65, 1);
+  color: white;
+  > .button .section7-btn {
+    border: 1px solid white;
+    color: white;
+  }
+}
+.button {
+  text-align: right;
+}
+/* section7 end */

@@ -40,6 +40,9 @@
   marquee {
     font-size: 60px;
   }
+  .section7-boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 /* 992px end */
 
@@ -90,6 +93,14 @@
   }
   marquee {
     font-size: 50px;
+  }
+  .section7-boxes {
+    grid-template-columns: 1fr;
+  }
+  .section7-boxes .box {
+    > h3 {
+      font-size: 45px;
+    }
   }
 }
 
