@@ -9,6 +9,8 @@
   }
 }
 
+/* 1400px end */
+
 @media (max-width: 992px) {
   .container {
     max-width: 720px;
@@ -35,7 +37,12 @@
       font-size: 50px;
     }
   }
+  marquee {
+    font-size: 60px;
+  }
 }
+/* 992px end */
+
 @media (max-width: 768px) {
   .container {
     max-width: 540px;
@@ -81,7 +88,13 @@
       font-size: 35px;
     }
   }
+  marquee {
+    font-size: 50px;
+  }
 }
+
+/* 768px end */
+
 @media (max-width: 576px) {
   .container {
     max-width: 100%;
@@ -105,5 +118,8 @@
     > .box {
       border: none;
     }
+  }
+  marquee {
+    font-size: 40px;
   }
 }

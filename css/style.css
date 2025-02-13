@@ -273,3 +273,12 @@ nav {
   }
 }
 /* section5 end */
+
+.section6 {
+  padding: 50px 0;
+  background-color: rgba(243, 233, 226, 1);
+}
+marquee {
+  font-size: 80px;
+}
+/* section6 end */
