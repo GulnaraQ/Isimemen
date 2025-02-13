@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Isimemen</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="container">
+          <nav>
+            <div class="logo">
+              <a href="./index.html">
+                <img src="./images/logo.svg" alt="logo" />
+              </a>
+            </div>
+            <div class="links">
+              <a href="./index.html">HOME</a>
+              <a href="#">ABOUT</a>
+              <a href="#"> WORK WITH US</a>
+              <a href="#">CLIENT WINS </a>
+              <a href="#">EMPLOYERS</a>
+            </div>
+            <div class="bars" id="bars">
+              <img src="./images/bars.svg" alt="bars" id="barsImage" />
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- navbar end -->
+    </header>
+    <!-- header end -->
+    <div class="mobileNav" id="mobileNav">
+      <a href="./index.html">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#"> WORK WITH US</a>
+      <a href="#">CLIENT WINS </a>
+      <a href="#">EMPLOYERS</a>
+    </div>
+
+    <script>
+      bars.onclick = function () {
+        if (barsImage.src.includes("bars.svg")) {
+          barsImage.src = "./images/times.svg";
+        } else {
+          barsImage.src = "./images/bars.svg";
+        }
+        document.getElementById("mobileNav").classList.toggle("showMobileNav");
+      };
+    </script>
+  </body>
+</html>
