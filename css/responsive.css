@@ -20,6 +20,9 @@
   .section1 p {
     font-size: 40px;
   }
+  .section2 p {
+    font-size: 70px;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -40,10 +43,13 @@
   }
   .hero-title {
     width: 65%;
-    font-size: 70px;
+    font-size: 65px;
   }
   .section1 p {
     font-size: 35px;
+  }
+  .section2 p {
+    font-size: 50px;
   }
 }
 @media (max-width: 576px) {
@@ -56,5 +62,8 @@
   }
   .section1 p {
     font-size: 25px;
+  }
+  .section2 p {
+    font-size: 40px;
   }
 }
