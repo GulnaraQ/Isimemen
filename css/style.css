@@ -18,10 +18,10 @@ html {
   max-width: 1200px;
   margin: auto;
 }
-
-.navbar {
+header {
   position: sticky;
-  top: 0;
+  top: 0px;
+  z-index: 3;
   background-color: white;
 }
 nav {
@@ -68,6 +68,7 @@ nav {
     font-size: 20px;
   }
 }
+
 /* navbar end */
 
 .hero {
@@ -90,3 +91,17 @@ nav {
   bottom: 50px;
 }
 /* header end */
+
+.section1 {
+  padding: 70px 0;
+}
+
+.section1 p {
+  padding: 50px 0;
+  font-size: 44px;
+  line-height: 53px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+/* section1 end */

@@ -17,6 +17,9 @@
     width: 60%;
     font-size: 80px;
   }
+  .section1 p {
+    font-size: 40px;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -33,10 +36,14 @@
     visibility: visible;
     top: 70px;
     position: fixed;
+    z-index: 2;
   }
   .hero-title {
     width: 65%;
     font-size: 70px;
+  }
+  .section1 p {
+    font-size: 35px;
   }
 }
 @media (max-width: 576px) {
@@ -46,5 +53,8 @@
   }
   .hero-title {
     font-size: 60px;
+  }
+  .section1 p {
+    font-size: 25px;
   }
 }
