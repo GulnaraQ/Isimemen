@@ -43,6 +43,15 @@
   .section7-boxes {
     grid-template-columns: repeat(2, 1fr);
   }
+  .section10-info {
+    width: 90%;
+    > h2 {
+      font-size: 60px;
+    }
+    > p {
+      font-size: 35px;
+    }
+  }
 }
 /* 992px end */
 
@@ -105,6 +114,14 @@
   .section8 p {
     font-size: 35px;
   }
+  .section10-info {
+    > h2 {
+      font-size: 50px;
+    }
+    > p {
+      font-size: 30px;
+    }
+  }
 }
 
 /* 768px end */
@@ -138,5 +155,14 @@
   }
   .section8 p {
     font-size: 25px;
+  }
+  .section10-info {
+    width: 90%;
+    > h2 {
+      font-size: 40px;
+    }
+    > p {
+      font-size: 25px;
+    }
   }
 }

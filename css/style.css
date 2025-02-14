@@ -361,3 +361,29 @@ marquee {
   width: 50%;
 }
 /* section8 end */
+
+.section9 img {
+  width: 100%;
+}
+/* section9 */
+
+.section10 {
+  padding: 80px 0;
+  text-align: center;
+}
+.section10-info {
+  padding: 50px 0;
+  width: 80%;
+  margin: auto;
+}
+.section10 h2 {
+  font-size: 80px;
+  line-height: 88px;
+  font-weight: 400;
+}
+.section10 p {
+  font-size: 44px;
+  line-height: 53px;
+  margin: 30px 0 40px 0;
+}
+/* section 10 end */
