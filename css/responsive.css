@@ -102,6 +102,9 @@
       font-size: 45px;
     }
   }
+  .section8 p {
+    font-size: 35px;
+  }
 }
 
 /* 768px end */
@@ -132,5 +135,8 @@
   }
   marquee {
     font-size: 40px;
+  }
+  .section8 p {
+    font-size: 25px;
   }
 }
