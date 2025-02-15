@@ -398,6 +398,7 @@ footer {
   justify-content: space-between;
   gap: 20px;
 }
+
 .footer-right a {
   display: block;
   font-size: 15px;

@@ -167,5 +167,6 @@
   }
   .footer {
     grid-template-columns: auto;
+    gap: 40px;
   }
 }
