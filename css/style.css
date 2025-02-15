@@ -387,3 +387,25 @@ marquee {
   margin: 30px 0 40px 0;
 }
 /* section 10 end */
+
+footer {
+  background-color: rgba(243, 233, 226, 1);
+  padding: 70px 0;
+}
+.footer {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer-right a {
+  display: block;
+  font-size: 15px;
+  line-height: 19px;
+  color: black;
+  margin-bottom: 5px;
+}
+.footer-links {
+  margin-top: 30px;
+}
+/* footer end */

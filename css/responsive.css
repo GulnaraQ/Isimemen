@@ -165,4 +165,7 @@
       font-size: 25px;
     }
   }
+  .footer {
+    grid-template-columns: auto;
+  }
 }
